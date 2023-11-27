@@ -1,0 +1,90 @@
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Winter_Park_Express_at_Plainview.jpg/1200px-Winter_Park_Express_at_Plainview.jpg");
+    background-size: cover;
+    font-family:  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the body height to full viewport height */
+    margin: 0;
+}
+  
+h1 {
+   font-size:  50px; ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:white ;
+    width: 750px;
+    height: 100px;
+    animation-name: h1;
+    animation-duration: 2s;
+    animation-fill-mode:backwards;
+    color:rgb(71, 57, 57);
+  
+}
+h1,p{
+    text-align: center;
+}
+@keyframes h1 {
+    from {background-color:white;}
+    to {background-color:green;}
+  }
+@keyframes p {
+    from {background-color:white;}
+    to {background-color: red;}
+  }
+  
+
+p{
+    width: 750px;
+    height: 100px;
+    background-color: white;
+    animation-name: p;
+    animation-duration: 2s;
+    
+  }
+
+p{
+    font-size:50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+color :rgb(186, 194, 198);
+}
+
+#counta{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 10px;
+ color:rgb(255, 255, 255);
+}
+
+
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(234, 226, 226);
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+#increment-btn {
+    background:darkgreen;
+}
+
+#save-btn {
+    background: darkred;
+}
+#profit-btn{
+    background:darkgray;
+
+}
+div{
+    width:1000xp
+}
